@@ -44,3 +44,12 @@ table, th, td{
 th, td{
 	padding: 15px;
 }
+figure img{
+	max-width: 50%;
+	height: auto; 
+	margin: auto; 
+	display: block;
+}
+figure figcaption{
+	text-align: center;
+}
