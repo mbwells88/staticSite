@@ -1,32 +1,31 @@
 body {
+	padding-top:70px; <! Don't have text write over nav bar -->
 }
 
 h1 {
-    color: navy;
-    margin-left: 20px;
+	color: navy;
+	text-align: center;
 }
-u1 {
+nav u1 {
 	position: fixed;
 	top: 0;
 	width: 100%;
 	border: 1px solid blue;
 	list-style-type: none; <! Get rid of bullet points -->
-	background-color: #0000A0;
-	text-align: center;
+	background-color: blue;
 }
-li {
+nav li {
 	float:left;
 	border-right: 1px solid red;
 }
-li:last-child {
-	border-right: none;
-}
-li a{
+nav li a{
 	display: block;
 	color: black;
 	text-align: center;
 	padding: 14px 16px;
 }
-.active {
+nav .active {
 	background-color: red
 }
+
+
