@@ -9,14 +9,15 @@ h1 {
 nav u1 {
 	position: fixed;
 	top: 0;
-	width: 100%;
-	border: 1px solid blue;
-	list-style-type: none; <! Get rid of bullet points -->
+	width: auto;
+	border: 2px solid blue;
+	list-style: none; <! Get rid of bullet points -->
 	background-color: blue;
 }
 nav li {
 	float:left;
 	border-right: 1px solid red;
+	background-color: lightblue;
 }
 nav li a{
 	display: block;
@@ -27,35 +28,19 @@ nav li a{
 nav .active {
 	background-color: red
 }
-.grid_element{
+.characterImg{
 	display: inline-block;
-	width: 350px;
+	width: 250px;
 	height:350px;
+	padding: 50px;
 	border: 5px solid blue;
 	zoom: 1;
 	display*: inline;
 }
-
-.characterImg{
-	top: 70px;
-	float: left;
-	padding: 35px;
-	border: 5px solid blue;
+table, th, td{
+	border: 1px solid blue;
+	border-spacing: 1px;
 }
-.cloudImg{
-	float: left;
-	padding-top: 26px;
-	padding-left:35px;
-	padding-right:35px;
-	padding-bottom:26px;
-	border: 5px solid blue;
-}
-.footer{
-	border: 1px solid darkblue;
-	background-color: darkblue;
-	color: white;
-	position: fixed;
-	text-align: center;
-	bottom: 0px;
-	width: 100%;
+th, td{
+	padding: 15px;
 }
