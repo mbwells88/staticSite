@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+u1 {
+	list-style-type: none; <! Get rid of bullet points -->
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #0000A0;
+}
+li {
+	border-right: 1px solid red;
+}
+li:last-child {
+	border-right: none;
+}
+li a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 20px 25px;
+}
+.active {
+	background-color: red
+}
