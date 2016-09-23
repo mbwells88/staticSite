@@ -6,12 +6,12 @@ h1 {
 	color: navy;
 	text-align: center;
 }
-nav u1 {
+nav ul{
 	position: fixed;
 	top: 0;
 	width: auto;
 	border: 2px solid blue;
-	list-style: none; <! Get rid of bullet points -->
+	list-style-type: none; <!-- Get rid of bullet points -->
 	background-color: blue;
 }
 nav li {
@@ -44,12 +44,12 @@ table, th, td{
 th, td{
 	padding: 15px;
 }
-figure img{
+figure1 img{
 	max-width: 50%;
 	height: auto; 
 	margin: auto; 
 	display: block;
 }
-figure figcaption{
+figure1 figcaption{
 	text-align: center;
 }
